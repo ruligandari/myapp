@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.Parentbox {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+.Foto {
+  float: left;
+  width: 30%;
+  background-color: #e3e9ee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Foto img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+}
+.Deskripsi .Price {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.Deskripsi .Cate {
+  color: #acaeb2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deskripsi a {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(255, 159, 159);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+
+.Deskripsi a:hover {
+  color: #ffffff;
+  background: rgb(221, 135, 135);
+  transition: all 0.8s;
 }
